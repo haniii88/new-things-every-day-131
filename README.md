@@ -9,7 +9,7 @@ function dailyLog131() {
         { name: "Run final review", status: "completed" }
     ];
 
-    const completedTasks = tasks.filte(
+    const completedTasks = tasks.filter(
         task => task.status === "completed"
     ).length;
 
